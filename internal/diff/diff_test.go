@@ -3,7 +3,7 @@ package diff
 import (
 	"testing"
 
-	"github.com/butwhoistrace/strings/internal"
+	"github.com/whoisfrasch/strings/internal"
 )
 
 func TestCompareIdentical(t *testing.T) {

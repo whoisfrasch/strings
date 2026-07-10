@@ -5,7 +5,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/butwhoistrace/strings/internal"
+	"github.com/whoisfrasch/strings/internal"
 )
 
 func TestExtractASCII(t *testing.T) {

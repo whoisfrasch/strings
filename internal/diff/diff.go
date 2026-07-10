@@ -5,7 +5,7 @@ import (
 	"path/filepath"
 	"sort"
 
-	"github.com/butwhoistrace/strings/internal"
+	"github.com/whoisfrasch/strings/internal"
 )
 
 type DiffResult struct {

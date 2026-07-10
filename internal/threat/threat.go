@@ -1,6 +1,6 @@
 package threat
 
-import "github.com/butwhoistrace/strings/internal"
+import "github.com/whoisfrasch/strings/internal"
 
 var weights = map[string]int{
 	"process": 2, "injection": 5, "registry": 1, "network": 2,

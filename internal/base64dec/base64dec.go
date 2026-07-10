@@ -4,10 +4,10 @@ import (
 	"encoding/base64"
 	"regexp"
 
-	"github.com/butwhoistrace/strings/internal"
-	"github.com/butwhoistrace/strings/internal/categorizer"
-	"github.com/butwhoistrace/strings/internal/entropy"
-	"github.com/butwhoistrace/strings/internal/parser"
+	"github.com/whoisfrasch/strings/internal"
+	"github.com/whoisfrasch/strings/internal/categorizer"
+	"github.com/whoisfrasch/strings/internal/entropy"
+	"github.com/whoisfrasch/strings/internal/parser"
 )
 
 var b64Pattern = regexp.MustCompile(`(?:[A-Za-z0-9+/]{4}){3,}(?:[A-Za-z0-9+/]{2}==|[A-Za-z0-9+/]{3}=)?`)

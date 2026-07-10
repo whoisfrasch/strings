@@ -1,3 +1,3 @@
-module github.com/butwhoistrace/strings
+module github.com/whoisfrasch/strings
 
 go 1.22.2

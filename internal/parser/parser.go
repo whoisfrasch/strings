@@ -5,7 +5,7 @@ import (
 	"encoding/binary"
 	"os"
 
-	"github.com/butwhoistrace/strings/internal"
+	"github.com/whoisfrasch/strings/internal"
 )
 
 func ParseSections(filepath string) (sections []internal.SectionInfo) {

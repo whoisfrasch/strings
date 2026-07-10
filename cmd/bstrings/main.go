@@ -7,16 +7,16 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/butwhoistrace/strings/internal"
-	"github.com/butwhoistrace/strings/internal/base64dec"
-	"github.com/butwhoistrace/strings/internal/categorizer"
-	"github.com/butwhoistrace/strings/internal/color"
-	"github.com/butwhoistrace/strings/internal/diff"
-	"github.com/butwhoistrace/strings/internal/output"
-	"github.com/butwhoistrace/strings/internal/parser"
-	"github.com/butwhoistrace/strings/internal/report"
-	"github.com/butwhoistrace/strings/internal/scanner"
-	"github.com/butwhoistrace/strings/internal/xor"
+	"github.com/whoisfrasch/strings/internal"
+	"github.com/whoisfrasch/strings/internal/base64dec"
+	"github.com/whoisfrasch/strings/internal/categorizer"
+	"github.com/whoisfrasch/strings/internal/color"
+	"github.com/whoisfrasch/strings/internal/diff"
+	"github.com/whoisfrasch/strings/internal/output"
+	"github.com/whoisfrasch/strings/internal/parser"
+	"github.com/whoisfrasch/strings/internal/report"
+	"github.com/whoisfrasch/strings/internal/scanner"
+	"github.com/whoisfrasch/strings/internal/xor"
 )
 
 var (
