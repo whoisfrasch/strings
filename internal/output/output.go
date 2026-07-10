@@ -8,9 +8,9 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/butwhoistrace/strings/internal"
-	"github.com/butwhoistrace/strings/internal/color"
-	"github.com/butwhoistrace/strings/internal/threat"
+	"github.com/whoisfrasch/strings/internal"
+	"github.com/whoisfrasch/strings/internal/color"
+	"github.com/whoisfrasch/strings/internal/threat"
 )
 
 // Config holds output configuration flags.

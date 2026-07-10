@@ -7,7 +7,7 @@ Written in Go. Single binary, no dependencies.
 ## Install
 
 ```bash
-go install github.com/butwhoistrace/strings/cmd/bstrings@latest
+go install github.com/whoisfrasch/strings/cmd/bstrings@latest
 ```
 
 That's it. Now use `bstrings` from anywhere.
@@ -15,7 +15,7 @@ That's it. Now use `bstrings` from anywhere.
 ### Build from source
 
 ```bash
-git clone https://github.com/butwhoistrace/strings.git
+git clone https://github.com/whoisfrasch/strings.git
 cd strings
 go build -o bstrings ./cmd/bstrings/
 ```

@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/butwhoistrace/strings/internal"
+	"github.com/whoisfrasch/strings/internal"
 )
 
 func TestGenerateCreatesFile(t *testing.T) {

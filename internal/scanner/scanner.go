@@ -10,10 +10,10 @@ import (
 	"syscall"
 	"unicode/utf16"
 
-	"github.com/butwhoistrace/strings/internal"
-	"github.com/butwhoistrace/strings/internal/categorizer"
-	"github.com/butwhoistrace/strings/internal/entropy"
-	"github.com/butwhoistrace/strings/internal/parser"
+	"github.com/whoisfrasch/strings/internal"
+	"github.com/whoisfrasch/strings/internal/categorizer"
+	"github.com/whoisfrasch/strings/internal/entropy"
+	"github.com/whoisfrasch/strings/internal/parser"
 )
 
 var encodingPatterns = map[string]string{

@@ -7,10 +7,10 @@ import (
 	"runtime"
 	"sync"
 
-	"github.com/butwhoistrace/strings/internal"
-	"github.com/butwhoistrace/strings/internal/categorizer"
-	"github.com/butwhoistrace/strings/internal/entropy"
-	"github.com/butwhoistrace/strings/internal/parser"
+	"github.com/whoisfrasch/strings/internal"
+	"github.com/whoisfrasch/strings/internal/categorizer"
+	"github.com/whoisfrasch/strings/internal/entropy"
+	"github.com/whoisfrasch/strings/internal/parser"
 )
 
 var interestingPattern = regexp.MustCompile(`(?i)https?://|\.exe\b|\.dll\b|\.bat\b|\.cmd\b|\.ps1\b|cmd\.exe|powershell|\\windows\\|password|username|admin|HKEY_|BEGIN\s+(?:RSA|CERTIFICATE|PRIVATE)|api[_\-]?key|secret|token|\.onion\b|socket|connect`)

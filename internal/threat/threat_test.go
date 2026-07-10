@@ -3,7 +3,7 @@ package threat
 import (
 	"testing"
 
-	"github.com/butwhoistrace/strings/internal"
+	"github.com/whoisfrasch/strings/internal"
 )
 
 func TestAssessEmpty(t *testing.T) {
